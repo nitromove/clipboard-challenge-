@@ -1,0 +1,398 @@
+@import url("https://fonts.google.com/specimen/Bai+Jamjuree");
+
+$strong-cyan: hsl(171, 66%, 44%);
+$light-blue: hsl(233, 100%, 69%);
+$gray: hsl(201, 11%, 66%);
+$dark-gray: hsl(210, 10%, 33%);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 786px) {
+  #main_cta {
+    background-image: url(..//images/bg-header-mobile.png);
+    padding-top: 100px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+      color: $dark-gray;
+      font-weight: 600;
+      margin-block-start: 5%;
+      margin-inline-end: 5%;
+      margin-top: 30px;
+    }
+
+    p {
+      color: $gray;
+      margin-inline-start: 5%;
+      margin-inline-end: 5%;
+      margin-top: 15px;
+      margin-bottom: 40px;
+    }
+
+    #ios,
+    #mac {
+      color: white;
+      display: block;
+      padding-top: 5%;
+      border-radius: 25px;
+      height: auto;
+      padding-bottom: 5%;
+    }
+
+    #ios {
+      background-color: $strong-cyan;
+      margin-bottom: 5%;
+    }
+
+    #mac {
+      background-color: $light-blue;
+      margin-bottom: 120px;
+    }
+  }
+
+  #snippets {
+    text-align: center;
+    h4 {
+      color: $dark-gray;
+      margin-inline-start: 5%;
+      margin-inline-end: 5%;
+      font-weight: 600;
+    }
+
+    p {
+      color: $gray;
+      margin-bottom: 50px;
+    }
+  }
+
+  #splitted {
+    #computer {
+      margin-bottom: 50px;
+    }
+
+    .col2 {
+      text-align: center;
+      p {
+        color: $gray;
+      }
+    }
+  }
+
+  #clipboard {
+    margin-top: 80px;
+    text-align: center;
+    h3 {
+      color: $dark-gray;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $gray;
+      margin-bottom: 50px;
+    }
+    #devices {
+      margin-bottom: 50px;
+    }
+  }
+
+  #supercharge {
+    text-align: center;
+    h3,
+    h4 {
+      color: $dark-gray;
+    }
+    p {
+      color: $gray;
+      margin-bottom: 50px;
+    }
+    h4 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  #logos {
+    text-align: center;
+    #google,
+    #ibm,
+    #microsoft,
+    #hp,
+    #vg {
+      margin-bottom: 30px;
+    }
+  }
+  #download {
+    text-align: center;
+    h3 {
+      color: $dark-gray;
+    }
+    p {
+      color: $gray;
+      margin-bottom: 40px;
+    }
+    #ios,
+    #mac {
+      color: white;
+      display: block;
+      padding-top: 5%;
+      border-radius: 25px;
+      height: auto;
+      padding-bottom: 5%;
+    }
+
+    #ios {
+      background-color: $strong-cyan;
+      margin-bottom: 5%;
+    }
+
+    #mac {
+      background-color: $light-blue;
+      margin-bottom: 120px;
+    }
+  }
+  footer {
+    background-color: hsl(0, 17%, 95%);
+    width: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    #footer_logo {
+      height: 45px;
+    }
+    li {
+      list-style: none;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    li a {
+      color: $dark-gray;
+      font-weight: 600;
+    }
+    #social-icons {
+      text-align: center;
+      display: flex;
+  
+      #facebook, #twitter, #instagram {
+        width: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #main_cta {
+    background-image: url(..//images/bg-header-mobile.png);
+    padding-top: 100px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+      color: $dark-gray;
+      font-weight: 600;
+      margin-block-start: 5%;
+      margin-inline-end: 5%;
+      margin-top: 30px;
+    }
+    p {
+      color: $gray;
+      padding-left: 150px;
+      padding-right: 200px;
+      margin-bottom: 40px;
+    }
+    #ios,
+    #mac {
+      color: white;
+      border-radius: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    #ios {
+      background-color: $strong-cyan;
+      margin-bottom: 5%;
+      &:hover {
+        background-color: hsla(171, 66%, 44%, 0.788);
+        text-decoration: none;
+      }
+    }
+
+    #mac {
+      background-color: $light-blue;
+      margin-bottom: 120px;
+      margin-left: 10px;
+      &:hover {
+        background-color: hsla(233, 82%, 67%, 0.842);
+        text-decoration: none;
+      }
+    }
+  }
+  #snippets {
+    margin-top: 70px;
+    text-align: center;
+    p { 
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+    }
+  }
+  #splitted {
+    #computer {
+      margin-left: -100px;
+    }
+    .col2 {
+      margin-top: 50px;
+      h4 {
+        color: $dark-gray;
+      }
+      p {
+        color: $gray;
+        margin-right: 200px;
+      }
+    }
+  }
+  #clipboard {
+    text-align: center;
+    margin-top: 80px;
+    h3 {
+      color: $dark-gray;
+    }
+    p {
+      color: $dark-gray;
+      margin-left: 230px;
+      margin-right: 230px;
+    }
+  }
+  #supercharge {
+    text-align: center;
+    margin-top: 50px;
+    .row {
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    h4 {
+      color: $dark-gray;
+    }
+  }
+  #logos {
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  #download{
+    text-align: center;
+    h3 {
+      color: $dark-gray;
+      margin-bottom: 25px;
+    }
+    p {
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 35px;
+    }
+    #ios,
+    #mac {
+      color: white;
+      border-radius: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+      box-shadow: rgb(179, 169, 169);
+      text-decoration: none;
+    }
+
+    #ios {
+      background-color: $strong-cyan;
+      margin-bottom: 5%;
+      &:hover {
+        background-color: hsla(171, 66%, 44%, 0.849);
+      }
+    }
+
+    #mac {
+      background-color: $light-blue;
+      margin-bottom: 120px;
+      margin-left: 10px;
+      &:hover {
+        background-color: hsla(233, 100%, 69%, 0.877);
+      }
+    }
+  }
+  footer {
+    margin-top: 120px;
+    background-color: hsl(0, 17%, 95%);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: auto;
+    height: auto;
+    #footer_logo {
+      height: 45px;
+    }
+    li {
+      list-style: none;
+      align-items: flex-start;
+        a {
+          color: $dark-gray;
+          align-items: flex-start;
+          &:hover {
+            color: $strong-cyan;
+            text-decoration: none;
+
+          }
+        }
+    }
+    #social-icons {
+      display:flex;
+      #facebook, #twitter, #instagram {
+        width: 20%;
+        margin-left: 5%;
+        color: $gray;
+      }
+    }
+  }
+  }
+
+
+  @media screen and (min-width:1440px) {
+    #main_cta {
+      p {
+        color: $gray;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    }
+    #snippets {
+      p {
+        margin-left: 250px;
+        margin-right: 250px;
+      }
+    }
+    #splitted {
+      #computer {
+        margin-left: -178px;
+      }
+    }
+    #download{
+      p {
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+    }
+  }

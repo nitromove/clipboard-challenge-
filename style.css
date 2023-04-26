@@ -1,0 +1,381 @@
+@import url("https://fonts.google.com/specimen/Bai+Jamjuree");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  height: 100vh;
+}
+
+@media screen and (max-width: 786px) {
+  #main_cta {
+    background-image: url(..//images/bg-header-mobile.png);
+    padding-top: 100px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #main_cta h2 {
+    color: #4c545d;
+    font-weight: 600;
+    -webkit-margin-before: 5%;
+            margin-block-start: 5%;
+    -webkit-margin-end: 5%;
+            margin-inline-end: 5%;
+    margin-top: 30px;
+  }
+  #main_cta p {
+    color: #9fabb2;
+    -webkit-margin-start: 5%;
+            margin-inline-start: 5%;
+    -webkit-margin-end: 5%;
+            margin-inline-end: 5%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  #main_cta #ios,
+  #main_cta #mac {
+    color: white;
+    display: block;
+    padding-top: 5%;
+    border-radius: 25px;
+    height: auto;
+    padding-bottom: 5%;
+  }
+  #main_cta #ios {
+    background-color: #26baa4;
+    margin-bottom: 5%;
+  }
+  #main_cta #mac {
+    background-color: #6173ff;
+    margin-bottom: 120px;
+  }
+  #snippets {
+    text-align: center;
+  }
+  #snippets h4 {
+    color: #4c545d;
+    -webkit-margin-start: 5%;
+            margin-inline-start: 5%;
+    -webkit-margin-end: 5%;
+            margin-inline-end: 5%;
+    font-weight: 600;
+  }
+  #snippets p {
+    color: #9fabb2;
+    margin-bottom: 50px;
+  }
+  #splitted #computer {
+    margin-bottom: 50px;
+  }
+  #splitted .col2 {
+    text-align: center;
+  }
+  #splitted .col2 p {
+    color: #9fabb2;
+  }
+  #clipboard {
+    margin-top: 80px;
+    text-align: center;
+  }
+  #clipboard h3 {
+    color: #4c545d;
+    margin-bottom: 20px;
+  }
+  #clipboard p {
+    color: #9fabb2;
+    margin-bottom: 50px;
+  }
+  #clipboard #devices {
+    margin-bottom: 50px;
+  }
+  #supercharge {
+    text-align: center;
+  }
+  #supercharge h3,
+  #supercharge h4 {
+    color: #4c545d;
+  }
+  #supercharge p {
+    color: #9fabb2;
+    margin-bottom: 50px;
+  }
+  #supercharge h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #logos {
+    text-align: center;
+  }
+  #logos #google,
+  #logos #ibm,
+  #logos #microsoft,
+  #logos #hp,
+  #logos #vg {
+    margin-bottom: 30px;
+  }
+  #download {
+    text-align: center;
+  }
+  #download h3 {
+    color: #4c545d;
+  }
+  #download p {
+    color: #9fabb2;
+    margin-bottom: 40px;
+  }
+  #download #ios,
+  #download #mac {
+    color: white;
+    display: block;
+    padding-top: 5%;
+    border-radius: 25px;
+    height: auto;
+    padding-bottom: 5%;
+  }
+  #download #ios {
+    background-color: #26baa4;
+    margin-bottom: 5%;
+  }
+  #download #mac {
+    background-color: #6173ff;
+    margin-bottom: 120px;
+  }
+  footer {
+    background-color: #f4f0f0;
+    width: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+  }
+  footer #footer_logo {
+    height: 45px;
+  }
+  footer li {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer li a {
+    color: #4c545d;
+    font-weight: 600;
+  }
+  footer #social-icons {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer #social-icons #facebook, footer #social-icons #twitter, footer #social-icons #instagram {
+    width: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #main_cta {
+    background-image: url(..//images/bg-header-mobile.png);
+    padding-top: 100px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #main_cta h2 {
+    color: #4c545d;
+    font-weight: 600;
+    -webkit-margin-before: 5%;
+            margin-block-start: 5%;
+    -webkit-margin-end: 5%;
+            margin-inline-end: 5%;
+    margin-top: 30px;
+  }
+  #main_cta p {
+    color: #9fabb2;
+    padding-left: 150px;
+    padding-right: 200px;
+    margin-bottom: 40px;
+  }
+  #main_cta #ios,
+  #main_cta #mac {
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #main_cta #ios {
+    background-color: #26baa4;
+    margin-bottom: 5%;
+  }
+  #main_cta #ios:hover {
+    background-color: rgba(38, 186, 164, 0.788);
+    text-decoration: none;
+  }
+  #main_cta #mac {
+    background-color: #6173ff;
+    margin-bottom: 120px;
+    margin-left: 10px;
+  }
+  #main_cta #mac:hover {
+    background-color: rgba(102, 118, 240, 0.842);
+    text-decoration: none;
+  }
+  #snippets {
+    margin-top: 70px;
+    text-align: center;
+  }
+  #snippets p {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  #splitted #computer {
+    margin-left: -100px;
+  }
+  #splitted .col2 {
+    margin-top: 50px;
+  }
+  #splitted .col2 h4 {
+    color: #4c545d;
+  }
+  #splitted .col2 p {
+    color: #9fabb2;
+    margin-right: 200px;
+  }
+  #clipboard {
+    text-align: center;
+    margin-top: 80px;
+  }
+  #clipboard h3 {
+    color: #4c545d;
+  }
+  #clipboard p {
+    color: #4c545d;
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+  #supercharge {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #supercharge .row {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  #supercharge h4 {
+    color: #4c545d;
+  }
+  #logos {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  #download {
+    text-align: center;
+  }
+  #download h3 {
+    color: #4c545d;
+    margin-bottom: 25px;
+  }
+  #download p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 35px;
+  }
+  #download #ios,
+  #download #mac {
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    -webkit-box-shadow: #b3a9a9;
+            box-shadow: #b3a9a9;
+    text-decoration: none;
+  }
+  #download #ios {
+    background-color: #26baa4;
+    margin-bottom: 5%;
+  }
+  #download #ios:hover {
+    background-color: rgba(38, 186, 164, 0.849);
+  }
+  #download #mac {
+    background-color: #6173ff;
+    margin-bottom: 120px;
+    margin-left: 10px;
+  }
+  #download #mac:hover {
+    background-color: rgba(97, 115, 255, 0.877);
+  }
+  footer {
+    margin-top: 120px;
+    background-color: #f4f0f0;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: auto;
+    height: auto;
+  }
+  footer #footer_logo {
+    height: 45px;
+  }
+  footer li {
+    list-style: none;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer li a {
+    color: #4c545d;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer li a:hover {
+    color: #26baa4;
+    text-decoration: none;
+  }
+  footer #social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer #social-icons #facebook, footer #social-icons #twitter, footer #social-icons #instagram {
+    width: 20%;
+    margin-left: 5%;
+    color: #9fabb2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #main_cta p {
+    color: #9fabb2;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #snippets p {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  #splitted #computer {
+    margin-left: -178px;
+  }
+  #download p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
